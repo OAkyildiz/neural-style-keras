@@ -8,8 +8,8 @@ import argparse
 
 import numpy as np
 import tensorflow as tf
-import keras
-import keras.backend as K
+import tensorflow.keras as keras
+import tensorflow.keras.backend as K
 
 from utils import config_gpu, preprocess_image_scale, deprocess_image
 import h5py

@@ -1,5 +1,5 @@
-import keras.backend as K
-from keras.applications import vgg16
+import tensorflow.keras.backend as K
+from tensorflow.keras.applications import vgg16
 
 '''
 Module that defines loss functions and other auxiliary functions used when

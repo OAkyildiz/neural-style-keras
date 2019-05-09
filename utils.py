@@ -2,13 +2,13 @@
 Module constains utilitary functions.
 '''
 import tensorflow as tf
-from keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 import h5py
 import yaml
 from PIL import Image
-from keras.applications import vgg16
-from keras import backend as K
+from tensorflow.keras.applications import vgg16
+from tensorflow.keras import backend as K
 
 def config_gpu(gpu, allow_growth):
     # Choosing gpu

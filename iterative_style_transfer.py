@@ -11,11 +11,11 @@ import time
 
 import numpy as np
 import tensorflow
-import keras
-import keras.backend as K
-from keras.optimizers import Adam
-from keras.applications import vgg19
-from keras.layers import Input
+import tensorflow.keras as keras
+import tensorflow.keras.backend as K
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.applications import vgg19
+from tensorflow.keras.layers import Input
 
 from training import get_content_features, get_style_features, get_content_losses, get_style_losses, tv_loss
 from utils import config_gpu, preprocess_image_scale, deprocess_image
